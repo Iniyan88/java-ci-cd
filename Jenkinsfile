@@ -52,6 +52,7 @@ pipeline {
                 }
             }
         }
+	echo "Integration test over"
 
         stage('CODE ANALYSIS with SONARQUBE') {
           
